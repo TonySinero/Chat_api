@@ -14,3 +14,19 @@ data:
     POSTGRES_PASSWORD=secret
     POSTGRES_DB=postgres
     POSTGRES_SSL_MODE=disable
+
+# apiVersion: v1
+# kind: ConfigMap
+# metadata:
+#   name: chat-app-configmap
+# data:
+#   .env: |-
+#     API_SERVER_PORT=8080
+#     TOKEN_KEY=asdadsd5v1s6d1vs6dcd
+#     CURRENT_DB=postgres
+#     POSTGRES_HOST: $(POSTGRES_HOST)
+#     POSTGRES_PORT: $(POSTGRES_PORT)
+#     POSTGRES_USER: $(POSTGRES_USER)
+#     POSTGRES_PASSWORD: $(POSTGRES_PASSWORD)
+#     POSTGRES_DB: $(POSTGRES_DB)
+#     POSTGRES_SSL_MODE: $(POSTGRES_SSL_MODE)

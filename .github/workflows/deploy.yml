@@ -1,12 +1,10 @@
 name: Deploy to GCP
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-
-on:
-  push:
+  pull_request:
     branches:
       - main
 
